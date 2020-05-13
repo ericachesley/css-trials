@@ -8,18 +8,36 @@
             margin: 0;
         }
         div {
+            margin: 0;
+            height: 200px;
+            width: 350px;
+        }
+        .sub-div {
             background-color: black;
-            margin: 0 50px;
+            margin-top: 50px;
+            margin-left: 50px;
             height: 100px;
             width: 100px;
             display: inline-block;
+        }
+        #div1 {
+            background-color: red;
+        }
+        #div2 {
+            background-color: blue;
         }
     </style>
   </head>
 
   <body>
-    <div id="div1"></div>
-    <div id="div2"></div>
+    <div id="div1">
+        <div class="sub-div"></div>
+        <div class="sub-div"></div>
+    </div>
+    <div id="div2">
+        <div class="sub-div"></div>
+        <div class="sub-div"></div>
+    </div>
   </body>
 
 </html>
